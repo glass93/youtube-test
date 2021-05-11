@@ -23,7 +23,7 @@ export default {
   },
   computed: {
     youtubeSrc() {
-      return `http://www.youtube.com/embed/${this.video.id.videoId}`
+      return `https://www.youtube.com/embed/${this.video.id.videoId}`
     }
   },
   filters: {
